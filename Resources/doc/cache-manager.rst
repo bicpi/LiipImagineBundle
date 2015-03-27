@@ -27,7 +27,7 @@ Some paths and some filters:
         array('thumbnail_233x233', 'thumbnail_100x100')
     );
 
-The whole cache.
+The whole cache:
 
 .. code-block:: php
 
