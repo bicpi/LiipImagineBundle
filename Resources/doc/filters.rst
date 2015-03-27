@@ -256,7 +256,7 @@ Post-Processors
 ---------------
 
 Filters allow modifying the image, but in order to modify the resulting binary
-file created by filters, you can use post-processors Post-processors should
+file created by filters, you can use post-processors. Post-processors should
 implement ``Liip\ImagineBundle\Imagine\Filter\PostProcessor\PostProcessorInterface``.
 
 ``PostProcessorInterface::process`` method receives ``BinaryInterface`` -
@@ -291,7 +291,7 @@ For an example of a post processor implementation, refer to
 ``Liip\ImagineBundle\Imagine\Filter\PostProcessor\JpegOptimPostProcessor``.
 
 The ``JpegOptimPostProcessor`` can be used to provide lossless jpeg
-optimization, which is good for you website loading speed. In order to add
+optimization, which is good for your website loading speed. In order to add
 lossless jpeg optimization to your filters, use the following configuration:
 
 .. code-block:: yaml
